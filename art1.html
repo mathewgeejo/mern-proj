@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Starry Night</title>
+  <style>
+    body { 
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 40px;
+      background: #1a1a1a;
+      color: #fff;
+      min-height: 100vh;
+    }
+    .container { 
+      max-width: 900px;
+      margin: 0 auto;
+      background: #2d2d2d;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+    img { 
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      border-radius: 15px;
+      border: 2px solid #3d3d3d;
+      margin-bottom: 25px;
+      transition: transform 0.3s;
+    }
+    img:hover {
+      transform: scale(1.02);
+    }
+    h2 { 
+      color: #00ff9d;
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      letter-spacing: 1px;
+    }
+    p { 
+      line-height: 1.8;
+      color: #e0e0e0;
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+    strong {
+      color: #00ff9d;
+      font-weight: 600;
+      margin-right: 10px;
+    }
+    .details {
+      background: #3d3d3d;
+      padding: 25px;
+      border-radius: 15px;
+      margin-top: 25px;
+    }
+    h3 {
+      color: #00ff9d;
+      font-size: 1.5rem;
+      margin: 30px 0 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 15px;
+    }
+    li a {
+      text-decoration: none;
+      color: #808080;
+      display: inline-block;
+      padding: 12px 25px;
+      background: #3d3d3d;
+      border-radius: 30px;
+      transition: all 0.3s;
+    }
+    li a:hover {
+      background: #00ff9d;
+      color: #1a1a1a;
+      transform: translateY(-2px);
+    }
+    .back-btn {
+      text-decoration: none;
+      color: #808080;
+      display: inline-block;
+      margin-bottom: 25px;
+      padding: 12px 25px;
+      background: #3d3d3d;
+      border-radius: 30px;
+      transition: all 0.3s;
+    }
+    .back-btn:hover {
+      background: #00ff9d;
+      color: #1a1a1a;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="arthomepage.html" class="back-btn">← Back to Gallery</a>
+    <h2>Starry Night</h2>
+    <img src="art1.jpg" alt="Starry Night">
+    <div class="details">
+      <p><strong>Artist:</strong> Vincent van Gogh</p>
+      <p><strong>Year:</strong> 1889</p>
+      <p><strong>Description:</strong> A dreamy interpretation of the artist's asylum view at night.</p>
+    </div>
+    <h3>Similar Artworks</h3>
+    <ul>
+      <li><a href="art4.html">The Scream</a></li>
+      <li><a href="art5.html">Girl with a Pearl Earring</a></li>
+    </ul>
+  </div>
+</body>
+</html>
